@@ -14,3 +14,8 @@ go to data/proxies.txt and put your proxies on `user:pass@ip:port` format. (i re
 
 This code is meant to be used in a educational manner and not for harming others. This code is solely based on concept of the Account generation. This can be patched by discord anytime.
 I am not responsible for any harm caused by this tool. The Tool is just shared by me for Saving time finding it!
+
+# Contact
+
+Discord : Switch#8715
+Server : https://discord.gg/switchuwu
